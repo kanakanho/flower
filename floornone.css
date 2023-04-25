@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: block;
+	margin: 0px;
+	padding: 25px 0px 10px 0px;
+	text-align: center;
+	background-color: #000;
+}
+
+.header title {
+	display: flex;
+	padding: 20px 0px; 
+}
+
+.header title a{
+	text-decoration: overline;
+}
+
+.title span{
+	font-family:'serif';
+	font-size: 25px;
+	color: #fff;
+}
+
+.Hlink {
+	display: block;
+	margin: 12px 30px 0px 585px;
+	padding: 5px 40px 5px 0px; 
+	text-align: end;
+	background-color: #eee;
+	border-radius: 20px;
+}
+
+.Hlink a{
+	text-decoration: none;
+	color: #333;
+	font-size: 17px;
+}
+
+/*----------------------------------------*/
+
+.main{
+	
+}
+
+.frame{
+	display: block;
+	padding: 0px 70px;
+}
+
+.Mlink{
+	display: block;
+	text-align: center;
+	padding: 20px 50px 5px 50px;
+}
+
+.Mlink .title{
+	margin-bottom: 10px;
+}
+
+.Mlink .title span{
+	background-color: #ddd;
+	border-bottom: 1px;
+	border-bottom-color: #eee;
+	border-radius: 20px;
+	padding: 10px 30px 6px 30px;
+	font-size: 30px;
+	color: #333;	
+}
+
+.Mlink a{
+	margin: 0px 30px;
+	text-decoration: none;
+	color: #333;
+	font-size: 30px;
+}
+
+.Mlink img{
+	width: 2.5%;
+	height: auto;
+	padding-right: 10px;
+}
+
+.map{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.map img{
+	width: 70%;
+	height: auto;
+	border-radius: 50px;
+}
+
+
+/*----------------------------------------*/
+
+
+.bilding{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	padding: 0px 100px;
+}
+
+.south{
+	display: flex;
+	flex-direction: row;
+}
+
+.bilding .title{
+	margin: 0px 50px 20px 50px;
+	border-bottom: medium 3px;
+	border-bottom-color: #000;
+	border-bottom-style: groove;
+	padding: 0px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.bilding .title span{
+	font-size: 40px;
+	color: #333;
+}
+
+.classroom{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	border-bottom: medium 10px;
+	border-bottom-color: #333;
+	border-bottom-style: groove;
+}
+
+.class{
+	display: flex;
+	flex-direction: column;
+	border-top: medium 10px;
+	border-top-color: #333;
+	border-top-style: groove;
+	border-right: medium 10px;
+	border-right-color: #333;
+	border-right-style: groove;
+	border-left: medium 10px;
+	border-left-color: #333;
+	border-left-style: groove;
+}
+
+.class .c{
+	display: flex;
+	flex-direction: row;
+}
+
+.class .n {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/*
+.class .n .name{
+	display: block;
+	text-align: center;
+	height: auto;
+	width: auto;
+	padding-top: 5px; 
+	background-color: #fff;
+	border-bottom: medium 5px;
+	border-bottom-color: #999;
+	border-bottom-style: groove;
+	border-right: medium 5px;
+	border-right-color: #999;
+	border-right-style: groove;
+}
+*/
+
+.class .c .name span {
+	font-size: 25px;
+	width: auto;
+	height: auto;
+	padding: 0px 30px;
+}
+
+.class .n .number{
+	height: 40px;
+	width: auto;
+	margin-left: auto;
+	padding-top: 5px; 
+	background-color: #aaa;
+	border-bottom: medium 5px;
+	border-bottom-color: #999;
+	border-bottom-style: groove;
+	border-left: medium 5px;
+	border-left-color: #999;
+	border-left-style: groove;
+}
+
+.class .n .number span {
+	font-size: 25px;
+	margin: 0px 15px;
+}
+
+.class .label{
+	height: auto;
+	width: auto;
+	padding-top: 55px;
+}
+
+.class .label span{
+	margin: 0px 10px 0px 20px;
+	font-size: 25px;
+}
+
+
+.nouth {
+	display: flex;
+	flex-direction: row;
+}
+
+.west {
+	display: flex;
+	flex-direction: row;
+}
+
+/*----------------------------------------*/
+
+.footer{
+	background-color:#000;
+	padding: 75px 0px 50px 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	color: #fff;
+}
+
+.account a{
+	display: inline-block;
+	padding:0px;
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+	color:#fff
+}
+
+.account img{
+	width: 125px;
+	height: auto;
+}
+
+.account span{
+	padding:0px;
+	font-style:oblique;
+}
+
+.list li{
+	list-style-type:none;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.list a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 15px;
+}
